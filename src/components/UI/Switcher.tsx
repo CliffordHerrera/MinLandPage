@@ -6,7 +6,7 @@ export default function Switcher() {
     const [active, setActive] = useState<number>(1);
 
     return (
-        <div className="flex flex-row items-center justify-center mb-0 mt-14">
+        <div className="flex flex-row items-center justify-center absolute top-100">
             <button onClick={() => setActive(1)} className={active === 1 ? activeBtn : inactiveBtn}></button>
             <button onClick={() => setActive(2)} className={active === 2 ? activeBtn : inactiveBtn} ></button>
             <button onClick={() => setActive(3)} className={active === 3 ? activeBtn : inactiveBtn}></button>
