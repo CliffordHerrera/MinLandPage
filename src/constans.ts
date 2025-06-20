@@ -1,2 +1,5 @@
 export const h1Class: string = "text-4xl font-semibold m-2 text-center"
 export const pClass: string = "font-regular text-gray-500 m-2 text-center"
+export const btnClass: string = "bg-green-600 hover:bg-green-800 text-white py-2 px-4 my-2 rounded cursor-pointer"
+export const h1ClassNC: string = "text-4xl font-semibold m-2"
+export const pClassNC: string = "font-regular text-gray-500 m-2"

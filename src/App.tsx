@@ -2,6 +2,9 @@ import Header from "./components/Header"
 import Hero from "./components/Hero"
 import Clients from "./components/Clients"
 import Community from "./components/Community"
+//import Unlock from "./components/Body/Unlock"
+//import Achievements from "./components/Body/Achievements"
+import Body from "./components/Body/Body"
 
 
 export default function App() {
@@ -11,6 +14,9 @@ export default function App() {
       <Hero />
       <Clients />
       <Community />
+      <Body />
     </div>
   )
 }
+
+//<Achievements />

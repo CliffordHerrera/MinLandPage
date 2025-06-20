@@ -1,6 +1,6 @@
 import Switcher from "./UI/Switcher"
 import Illustration from "../assets/Illustration.png"
-import { pClass } from "../constans"
+import { pClass, btnClass } from "../constans"
 
 export default function Hero() {
     return (
@@ -10,7 +10,7 @@ export default function Hero() {
                     <h1 className="text-4xl font-semibold m-2">Lessons and insights <br />
                         <span className="text-green-600">from 8 years</span></h1>
                     <p className={pClass}>Where to grow your business as a photographer: site or social media?</p>
-                    <button className="bg-green-600 hover:bg-green-800 text-white py-2 px-4 my-2 rounded cursor-pointer">
+                    <button className={btnClass}>
                         Register
                     </button>
                 </div>
